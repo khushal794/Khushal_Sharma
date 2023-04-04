@@ -1,0 +1,70 @@
+body{   border: 2px solid rgb(12, 24, 26);
+        background-color: aquamarine;
+    
+        background-image: url('sea-g79ec84aea_1920.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      
+}
+h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 200%;
+    padding: 5%;
+  }
+  p {
+    color: red;
+    font-family: courier;
+    font-size: 160%;
+    margin: 10px;
+  }
+
+a:link {
+  color: green;
+  background-color: #f44336;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:visited {
+  color: pink;
+  background-color: rebeccapurple;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+table, th, td {
+
+  border: 1px solid black;
+  border-style:dotted;
+}
+table{
+  width:50%;
+}
+tr:nth-child(even){
+  border: red;
+
+
+}
+th, td {
+  background-color: #96D4D4;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right:5px ;
+  padding-bottom: 5px;
+  border-spacing: 5px;
+  text-align: right;
+}
