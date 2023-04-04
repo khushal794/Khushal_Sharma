@@ -15,3 +15,11 @@ let arr =Array.from(document.body.childNodes)
 console.log(arr)
 console.log(document.documentElement.parentNode)
 console.log(document.documentElement.parentElement)
+
+
+console.log(document.body.firstChild)
+console.log(document.body.lastChild)
+let arr2 =Array.from(document.body.childNodes)
+console.log(arr2)
+console.log(document.documentElement.parentNode)
+console.log(document.documentElement.parentElement)
